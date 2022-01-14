@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style-login.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top hide-on-moble-tablet">
+            <nav class="nav__list">
+                <ul class="nav__info">
+                    <li>FREE SHIPPING & RETURN</li>
+                    <li>MONEY BACK GUARANTEE</li>
+                    <li>ONLINE SUPORT 24/7</li>
+                </ul>                                            
+            </nav>
+        </div>
+            <div class="grid wide">
+                <div class="header__bottom">
+                    <input type="checkbox" class='nav__input hide-on-pc' name="" id="nav__input">
+                    <nav class="header__navbar hide-on-moble-tablet">
+                        <ul class="list">
+                            <li class="item"><a href="index.html">home</a></li>
+                            <li class="item"><a href="about.html">about</a></li>
+                            <!-- <li class="item"><a href="#">product</a></li> -->
+                            <li class="item"><a href="new.html">new</a></li>
+                            <li class="item"><a href="contact.html">contact</a></li>
+                        </ul>
+                    </nav>
+                    <label for="nav__input" class="nav__bar-btn ">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="fa fa-bars " role="img" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                    </label>
+                    <label for="nav__input" class="nav__overlay">
+                    </label>
+                    <nav class="header__navbar-mobile hide-on-pc">
+                        <ul class="mobile_list">
+                            <li class="item"><a href="index.html">home</a></li>
+                            <li class="item"><a href="about.html">about</a></li>
+                            <!-- <li class="item"><a href="#">product</a></li> -->
+                            <li class="item"><a href="new.html">new</a></li>
+                            <li class="item"><a href="contact.html">contact</a></li>
+                        </ul>
+                    <label for="nav__input" class="nav__mobile-btn">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="fa fa-times " role="img" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                    </label>
+                    </nav>
+
+                    <div class="header__navbar" style="text-align: end;">
+                        <ul class="nav__login">
+                            <li><a href="login.html">LOG IN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <div class="content-form">
+        <div class="grid wide">
+            <div class="row">
+                <div class="form-login col l-6 m-12 c-12 ">
+                    <form action="login" class="login-form">
+                        <h2>LOGIN</h2>
+                        <div class="input__login-email">
+                            <!-- <p>Email:</p> -->
+                            <input type="text" placeholder=" email" valua="email">
+                        </div>
+                        <div class="input__login-password">
+                            <!-- <p>Password:</p> -->
+                            <input type="text" placeholder=" password" value="">
+                            <!-- <p><a href="#">Quen mat khau?</a></p> -->
+                        </div>
+                        <div class="input__login-btn">
+                            <button class="login-btn" value="Login">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="form-registration col l-6 m-12 c-12">
+                    <form action="rigistration" class="login-form">
+                        <h2>REGISTRATION</h2>
+                        <div class="input__registration-Username">
+                            <!-- <p>Username:</p> -->
+                            <input type="text" placeholder=" Username" valua="">
+                        </div>
+                        <div class="input__registration-email">
+                            <!-- <p>Email:</p> -->
+                            <input type="text" placeholder=" email" valua="email">
+                        </div>
+                        <div class="input__registration-password">
+                            <!-- <p>Password:</p> -->
+                            <input type="text" placeholder=" password" value="">
+                        </div>
+                        <div class="input__registration-btn">
+                            <button class="registration-btn" value="sgn up">sign up</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">    
+        <div class="grid wide">
+            <div class="row footer-form">
+                <div class="dangky col l-6 m-6 c-12">
+                    <h2>Dang ky ban tin</h2>
+                    <p>Nhan tat ca thong tin moi nhat ve su kien,Ban hang va uu dai. Dang ky nhan ban tin hom nay</p>
+                </div>
+                <div class="internet col l-6 m-6 c-12">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="row information">
+                <div class="contact col l-3 m-12 c-12">
+                    <h2>lien he voi chung toi</h2>
+                    <h3>ADDRESS:  </h3>
+                    <p>123 strest name, city, Vietnam</p>
+                    <h3>PHONE:</h3>
+                    <p>toll phone (+84) 123456789</p>
+                    <h3>MAIL</h3>
+                    <p>mail@example.com</p>
+                    <h3>WORKING DAY/HOURS:</h3>
+                    <p>Mon - Sun / 9:00AM - 8:00PM</p>
+                </div>
+                <div class="content col l-9">
+                    <div class="content__fisrt row">
+                        <div class="product col l-6 m-6 c-12">
+                            <h3>Course</h3>
+                            <p>C++</p>
+                            <p>JavaScript</p>
+                            <p>Front-end</p>
+                        </div>
+                        <div class="policy col l-6 m-6 c-12">
+                            <h3>Policy</h3>
+                            <P>huong dan hoc</P>
+                            <P>chinh sach ho tro</P>
+                            <P>chinh sach giang day</P>
+                        </div>
+                    </div>
+                    <div class="content__second row">
+                        <div class="col l-6 m-12 c-12">
+                            <p>Elegant eCommerce. © 2021. All Rights Reserved</p>
+                        </div>
+                        <div class="visa col l-6 m-12 c-12">
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-discover"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
